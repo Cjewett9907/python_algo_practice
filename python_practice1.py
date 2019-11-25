@@ -5,5 +5,5 @@ def add_one(num):
     return num + 1
 
 
-def square_it(num)
+def square_it(num):
     return num * num
