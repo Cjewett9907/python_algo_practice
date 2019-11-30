@@ -27,3 +27,11 @@ def mergesort(array):
 def mergehelper(left,right):
 
 
+def remove_the_vowels(string):
+    result = ""
+    vowel = "aeiou"
+    for let in string:
+        if !(vowel.includes(let)):
+            result += let
+    return result
+        
