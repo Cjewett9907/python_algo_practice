@@ -34,4 +34,19 @@ def remove_the_vowels(string):
         if !(vowel.includes(let)):
             result += let
     return result
-        
+
+def binarysearch(Array, target):
+        return nil if len(Array) == 0
+
+        mid = int(len(Array)/2)
+
+        if Array[mid] == target:
+                return mid
+        else if Array[mid] < target:
+                return binarysearch(Array[0:mid])
+        else if Array[mid] > target:
+                if Array[mid] == Nil:
+                        return Nil
+                else: 
+                        return binarysearch(Array[mid:]) + 1 + mid
+     
