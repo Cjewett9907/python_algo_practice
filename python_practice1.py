@@ -49,4 +49,22 @@ def binarysearch(Array, target):
                         return Nil
                 else: 
                         return binarysearch(Array[mid:]) + 1 + mid
-     
+
+def caesar_cipher(str, shift):
+  letters = ["a".."z"]
+
+  encoded_str = ""
+  for char in str:
+    if char == " "
+      encoded_str += " "
+      next
+    end
+
+    old_idx = letters.find_index(char)
+    new_idx = (old_idx + shift) % len(letters)
+
+    encoded_str += letters[new_idx]
+  end
+
+  return encoded_str
+end  
