@@ -65,4 +65,13 @@ def caesar_cipher(str, shift):
     encoded_str += letters[new_idx]
   end
   return encoded_str
-end  
+end 
+
+def deep_dup(arr)
+  result = []
+  for el in arr:
+          if type(el) == "Array"
+                return result += deep_dup(el)
+          else 
+                return result += el
+end
