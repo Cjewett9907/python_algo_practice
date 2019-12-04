@@ -59,12 +59,10 @@ def caesar_cipher(str, shift):
       encoded_str += " "
       next
     end
-
     old_idx = letters.find_index(char)
     new_idx = (old_idx + shift) % len(letters)
 
     encoded_str += letters[new_idx]
   end
-
   return encoded_str
 end  
