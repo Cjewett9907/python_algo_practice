@@ -71,7 +71,7 @@ def deep_dup(arr)
   result = []
   for el in arr:
           if type(el) == "Array"
-                return result += deep_dup(el)
+                result += deep_dup(el)
           else 
-                return result += el
-end
+                result += el
+  return result
