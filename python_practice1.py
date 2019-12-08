@@ -80,3 +80,6 @@ def deep_dup(arr):
 def array_sort(arr):
         result = arr.sort()
         return result
+
+def get_name(person):
+        return preson.name
