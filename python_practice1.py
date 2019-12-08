@@ -67,7 +67,7 @@ def caesar_cipher(str, shift):
   return encoded_str
 end 
 
-def deep_dup(arr)
+def deep_dup(arr):
   result = []
   for el in arr:
           if type(el) == "Array"
@@ -77,7 +77,6 @@ def deep_dup(arr)
   return result
 
 
-
-
-
-  
+def array_sort(arr):
+        result = arr.sort()
+        return result
