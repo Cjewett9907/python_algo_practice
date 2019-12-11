@@ -83,3 +83,11 @@ def array_sort(arr):
 
 def get_name(person):
         return preson.name
+
+def count_to_three():
+        print("one")
+        sleep(1)
+        print("two")
+        sleep(1)
+        print("three")
+
