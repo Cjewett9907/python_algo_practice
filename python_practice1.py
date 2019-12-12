@@ -91,3 +91,7 @@ def count_to_three():
         sleep(1)
         print("three")
 
+def taskmanager(tasks):
+
+        # research assynchronous handling in python
+        
