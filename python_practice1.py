@@ -94,4 +94,11 @@ def count_to_three():
 def taskmanager(tasks):
 
         # research assynchronous handling in python
+
+def interview_prep(task):
+        results = []
+        for task in tasks:
+                if task.complete:
+                        results.push(task)
+        return results
         
